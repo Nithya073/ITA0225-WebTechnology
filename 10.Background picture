@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Background Image Repeat Example</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url('https://via.placeholder.com/150'); /* Replace with your own image URL */
+            background-repeat: repeat; /* Options: repeat, no-repeat, repeat-x, repeat-y */
+            background-size: contain; /* Optional: control the size of the background */
+        }
+
+        .content {
+            text-align: center;
+            padding: 50px;
+            color: white;
+            background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background for readability */
+        }
+    </style>
+</head>
+<body>
+
+    <div class="content">
+        <h1>Background Repeat Example</h1>
+        <p>This web page uses a repeating background image.</p>
+    </div>
+
+</body>
+</html>
