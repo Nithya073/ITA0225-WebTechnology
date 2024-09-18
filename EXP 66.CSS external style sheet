@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple HTML with CSS Classes</title>
+    <!-- Internal CSS -->
+    <style>
+        .header {
+            background-color: lightblue;
+            padding: 15px;
+            text-align: center;
+        }
+
+        .title {
+            font-size: 2em;
+            color: darkblue;
+        }
+
+        .paragraph {
+            font-size: 1.2em;
+            color: #333;
+            margin: 20px;
+        }
+
+        .button {
+            padding: 10px 20px;
+            background-color: green;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+
+        .button:hover {
+            background-color: darkgreen;
+        }
+    </style>
+</head>
+<body>
+
+    <header class="header">
+        <h1 class="title">Welcome to My Simple Webpage</h1>
+    </header>
+
+    <p class="paragraph">
+        This is a simple paragraph styled using a class selector. You can easily customize the style with CSS.
+    </p>
+
+    <p class="paragraph">
+        CSS allows you to control the appearance of elements on your web page. Try changing the values in the style section to see the difference!
+    </p>
+
+    <button class="button">Click Me</button>
+
+</body>
+</html>
